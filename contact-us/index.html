@@ -132,7 +132,7 @@
                 <div class="lg:w-1/2">
                     <div class="bg-white p-8 rounded-lg shadow-sm">
                         <h2 class="text-2xl font-bold text-primary-900 mb-6">Send Us a Message</h2>
-                        <form id="contactForm" class="space-y-4">
+                        <form id="contactForm" class="space-y-4" action="https://formspree.io/f/xldnbywe" method="POST">
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <div>
                                     <label for="first-name" class="block text-gray-700 mb-1">First Name*</label>
@@ -186,6 +186,8 @@
                                 <label for="consent" class="text-gray-600 text-sm">I consent to Hambros Consultants
                                     collecting my details through this form.</label>
                             </div>
+
+                            <input type="text" name="_gotcha" style="display:none" />
 
                             <button type="submit"
                                 class="bg-primary-600 text-white px-6 py-3 rounded-md hover:bg-primary-700 transition duration-300 w-full font-semibold">
